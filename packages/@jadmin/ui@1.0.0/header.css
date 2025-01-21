@@ -1,0 +1,29 @@
+.jadmin-header {
+  position: relative;
+  margin: 0.9962641255rem 0 0.9962641255rem 0;
+}
+.jadmin-header .title {
+  margin: 0;
+  font-size: 20px;
+  color: var(--secondary);
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.jadmin-header h1 {
+  -webkit-margin-after: 0;
+  margin-block-end: 0;
+  -webkit-margin-before: 0;
+  margin-block-start: 0;
+}
+.jadmin-header h1 span {
+  color: var(--gray);
+}
+@media screen and (max-width: 450px) {
+  .jadmin-header .title,
+  .jadmin-header h1 {
+    font-size: 1.125rem;
+  }
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvZGVcXHNjc3NcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0M7RUFFQTs7QUFDQTtFQUNDO0VBRUE7RUFDQTtFQUNBO0VBQ0E7O0FBT0Q7RUFDQztFQUNBO0VBQ0E7RUFDQTs7QUFDQTtFQUNDOztBQUdGO0VBQ0M7QUFBQTtJQUVDIiwiZmlsZSI6IiJ9 */

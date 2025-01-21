@@ -1,0 +1,11 @@
+.container-404.container-internet {
+  position: fixed;
+  inset: 0;
+  width: 100vw;
+}
+.container-404.container-internet.hide-page {
+  visibility: hidden;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndpZGdldFxcc2Nzc1xcc3R5bGVzLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQ0E7RUFDSTtFQUNBO0VBQ0E7O0FBQ0E7RUFDSSIsImZpbGUiOiIifQ== */

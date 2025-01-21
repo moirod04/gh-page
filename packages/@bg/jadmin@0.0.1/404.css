@@ -1,0 +1,84 @@
+.container-page-not-found {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: calc(100vh - 200px);
+  overflow: hidden;
+}
+.container-page-not-found .content-page-not-found {
+  max-width: 840px;
+  min-width: 650px;
+  margin: auto;
+  background-color: var(--surface);
+  color: var(--on-surface);
+  padding: 5rem 7rem;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.container-page-not-found .content-page-not-found h2 {
+  text-align: center;
+  position: relative;
+  font-weight: 700;
+  font-size: 60px;
+}
+.container-page-not-found .content-page-not-found h2:after {
+  position: absolute;
+  content: " ";
+  bottom: -2px;
+  width: 40px;
+  display: flex;
+  border-bottom: 1.5px solid var(--secondary);
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.container-page-not-found .content-page-not-found .first-text, .container-page-not-found .content-page-not-found .second-text {
+  display: block;
+  text-align: center;
+}
+.container-page-not-found .content-page-not-found .first-text {
+  font-weight: 600;
+  font-size: 20px;
+}
+.container-page-not-found .content-page-not-found .second-text {
+  font-size: 14px;
+  color: var(--gray-darker);
+}
+@media only screen and (max-width: 767px) {
+  .container-page-not-found .content-page-not-found {
+    min-width: 450px;
+  }
+}
+@media only screen and (max-width: 540px) {
+  .container-page-not-found .content-page-not-found {
+    min-width: 350px;
+    max-width: 350px;
+    padding: 4rem 0.5rem;
+  }
+  .container-page-not-found .content-page-not-found h2 {
+    font-size: 30px;
+  }
+  .container-page-not-found .content-page-not-found .first-text {
+    font-size: 17px;
+  }
+}
+.container-page-not-found.error-server {
+  height: 80vh;
+}
+.container-page-not-found.error-server .content-page-not-found {
+  height: 100%;
+  padding: 1rem 2rem;
+}
+.container-page-not-found.error-server .content-page-not-found .pui-image {
+  width: 20rem;
+  display: block;
+  margin: auto;
+}
+.container-page-not-found.error-server .content-page-not-found .pui-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvZGVcXHNjc3NcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFDRjtFQUNFO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUNBO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7O0FBQ0E7RUFDSTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBR1I7RUFDSTtFQUNBOztBQUVKO0VBQ0k7RUFDQTs7QUFFSjtFQUNJO0VBQ0E7O0FBR047RUFDRTtJQUNJOzs7QUFHTjtFQUNFO0lBQ0k7SUFDQTtJQUNBOztFQUNBO0lBQ0k7O0VBRUo7SUFDSTs7O0FBSVY7RUFDRTs7QUFDQTtFQUNJO0VBQ0E7O0FBQ0E7RUFDSTtFQUNBO0VBQ0E7O0FBQ0E7RUFDSTtFQUNBO0VBQ0E7RUFDQSIsImZpbGUiOiIifQ== */

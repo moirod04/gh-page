@@ -1,0 +1,341 @@
+.jadmin-input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 11.06px;
+}
+.jadmin-input .beyond-element-input,
+.jadmin-input .pragmate-element-input,
+.jadmin-input .pui-input,
+.jadmin-input .pui-element-textarea,
+.jadmin-input .beyond-element-textarea {
+  margin: 0;
+  border-radius: var(--border-primary);
+  border: 1px solid var(--background);
+  background-color: var(--background);
+}
+.jadmin-input .beyond-element-input input,
+.jadmin-input .beyond-element-input textarea,
+.jadmin-input .pragmate-element-input input,
+.jadmin-input .pragmate-element-input textarea,
+.jadmin-input .pui-input input,
+.jadmin-input .pui-input textarea,
+.jadmin-input .pui-element-textarea input,
+.jadmin-input .pui-element-textarea textarea,
+.jadmin-input .beyond-element-textarea input,
+.jadmin-input .beyond-element-textarea textarea {
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: var(--on-background);
+}
+.jadmin-input .beyond-element-input input:focus,
+.jadmin-input .beyond-element-input textarea:focus,
+.jadmin-input .pragmate-element-input input:focus,
+.jadmin-input .pragmate-element-input textarea:focus,
+.jadmin-input .pui-input input:focus,
+.jadmin-input .pui-input textarea:focus,
+.jadmin-input .pui-element-textarea input:focus,
+.jadmin-input .pui-element-textarea textarea:focus,
+.jadmin-input .beyond-element-textarea input:focus,
+.jadmin-input .beyond-element-textarea textarea:focus {
+  color: var(--on-background);
+}
+.jadmin-input .beyond-element-input:hover:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled), .jadmin-input .beyond-element-input:focus-within:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled),
+.jadmin-input .pragmate-element-input:hover:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled),
+.jadmin-input .pragmate-element-input:focus-within:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled),
+.jadmin-input .pui-input:hover:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled),
+.jadmin-input .pui-input:focus-within:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled),
+.jadmin-input .pui-element-textarea:hover:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled),
+.jadmin-input .pui-element-textarea:focus-within:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled),
+.jadmin-input .beyond-element-textarea:hover:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled),
+.jadmin-input .beyond-element-textarea:focus-within:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled) {
+  border-color: var(--background);
+}
+.jadmin-input .beyond-element-input:hover:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled) input, .jadmin-input .beyond-element-input:hover:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled) textarea,
+.jadmin-input .pragmate-element-input:hover:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled) input,
+.jadmin-input .pragmate-element-input:hover:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled) textarea,
+.jadmin-input .pui-input:hover:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled) input,
+.jadmin-input .pui-input:hover:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled) textarea,
+.jadmin-input .pui-element-textarea:hover:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled) input,
+.jadmin-input .pui-element-textarea:hover:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled) textarea,
+.jadmin-input .beyond-element-textarea:hover:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled) input,
+.jadmin-input .beyond-element-textarea:hover:not(.jadmin-input .beyond-element-input.disabled,
+.jadmin-input .pragmate-element-input.disabled,
+.jadmin-input .pui-input.disabled,
+.jadmin-input .pui-element-textarea.disabled,
+.jadmin-input .beyond-element-textarea.disabled) textarea {
+  color: var(--on-background);
+}
+.jadmin-input .beyond-element-input button.beyond-icon-button,
+.jadmin-input .beyond-element-input .pui-icon-button,
+.jadmin-input .beyond-element-input svg.beyond-icon,
+.jadmin-input .pragmate-element-input button.beyond-icon-button,
+.jadmin-input .pragmate-element-input .pui-icon-button,
+.jadmin-input .pragmate-element-input svg.beyond-icon,
+.jadmin-input .pui-input button.beyond-icon-button,
+.jadmin-input .pui-input .pui-icon-button,
+.jadmin-input .pui-input svg.beyond-icon,
+.jadmin-input .pui-element-textarea button.beyond-icon-button,
+.jadmin-input .pui-element-textarea .pui-icon-button,
+.jadmin-input .pui-element-textarea svg.beyond-icon,
+.jadmin-input .beyond-element-textarea button.beyond-icon-button,
+.jadmin-input .beyond-element-textarea .pui-icon-button,
+.jadmin-input .beyond-element-textarea svg.beyond-icon {
+  fill: var(--on-background);
+}
+.jadmin-input .beyond-element-input input[type=password]::-ms-reveal,
+.jadmin-input .beyond-element-input input[type=password]::-ms-clear,
+.jadmin-input .beyond-element-input input[type=password]::-webkit-contacts-auto-fill-button,
+.jadmin-input .beyond-element-input input[type=password]::-webkit-credentials-auto-fill-button,
+.jadmin-input .pragmate-element-input input[type=password]::-ms-reveal,
+.jadmin-input .pragmate-element-input input[type=password]::-ms-clear,
+.jadmin-input .pragmate-element-input input[type=password]::-webkit-contacts-auto-fill-button,
+.jadmin-input .pragmate-element-input input[type=password]::-webkit-credentials-auto-fill-button,
+.jadmin-input .pui-input input[type=password]::-ms-reveal,
+.jadmin-input .pui-input input[type=password]::-ms-clear,
+.jadmin-input .pui-input input[type=password]::-webkit-contacts-auto-fill-button,
+.jadmin-input .pui-input input[type=password]::-webkit-credentials-auto-fill-button,
+.jadmin-input .pui-element-textarea input[type=password]::-ms-reveal,
+.jadmin-input .pui-element-textarea input[type=password]::-ms-clear,
+.jadmin-input .pui-element-textarea input[type=password]::-webkit-contacts-auto-fill-button,
+.jadmin-input .pui-element-textarea input[type=password]::-webkit-credentials-auto-fill-button,
+.jadmin-input .beyond-element-textarea input[type=password]::-ms-reveal,
+.jadmin-input .beyond-element-textarea input[type=password]::-ms-clear,
+.jadmin-input .beyond-element-textarea input[type=password]::-webkit-contacts-auto-fill-button,
+.jadmin-input .beyond-element-textarea input[type=password]::-webkit-credentials-auto-fill-button {
+  display: none !important;
+}
+.jadmin-input .beyond-element-input .beyond-element-input-error,
+.jadmin-input .beyond-element-input .pragmate-element-input-error,
+.jadmin-input .pragmate-element-input .beyond-element-input-error,
+.jadmin-input .pragmate-element-input .pragmate-element-input-error,
+.jadmin-input .beyond-element-textarea .beyond-element-input-error,
+.jadmin-input .beyond-element-textarea .pragmate-element-input-error,
+.jadmin-input .pui-input .beyond-element-input-error,
+.jadmin-input .pui-input .pragmate-element-input-error,
+.jadmin-input .pui-element-textarea .beyond-element-input-error,
+.jadmin-input .pui-element-textarea .pragmate-element-input-error,
+.jadmin-input .pragmate-element-textarea .beyond-element-input-error,
+.jadmin-input .pragmate-element-textarea .pragmate-element-input-error {
+  bottom: -1.25rem;
+  color: var(--on-error);
+  font-size: 12px;
+}
+.jadmin-input .beyond-element-input.error,
+.jadmin-input .pragmate-element-input.error,
+.jadmin-input .beyond-element-textarea.error,
+.jadmin-input .pui-input.error,
+.jadmin-input .pui-element-textarea.error,
+.jadmin-input .pragmate-element-textarea.error {
+  border-color: var(--on-error);
+}
+.jadmin-input .beyond-element-textarea,
+.jadmin-input .pui-element-textarea,
+.jadmin-input .pragmate-element-textarea {
+  min-height: 135px;
+}
+.jadmin-input .beyond-element-textarea textarea,
+.jadmin-input .pui-element-textarea textarea,
+.jadmin-input .pragmate-element-textarea textarea {
+  min-height: inherit;
+}
+.jadmin-input .label-jadmin {
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: var(--on-background);
+  font-weight: 300;
+  line-height: 1;
+  text-transform: lowercase;
+}
+.jadmin-input .label-jadmin::first-letter {
+  text-transform: uppercase;
+}
+.form-group-select {
+  position: relative;
+}
+.form-group-select svg.pui-icon {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+  stroke: var(--primary);
+  width: 15px;
+  height: 15px;
+}
+
+.form-group-select {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  row-gap: 14px;
+}
+.form-group-select .beyond-input__required-label {
+  position: absolute;
+  right: 2.5rem;
+  bottom: 0.7rem;
+  color: var(--error);
+}
+.form-group-select label {
+  color: var(--on-background);
+  font-size: 16px;
+  font-weight: 500;
+}
+.form-group-select select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 1px solid var(--outline);
+  border-radius: 28px;
+  background: var(--background);
+  margin: 0;
+  border: 0;
+  padding: 0;
+  height: 43px;
+  max-height: 43px;
+  padding: 0 16px;
+  border: 1px solid var(--outline);
+  color: var(--on-background);
+  font-size: 14px;
+}
+.form-group-select select:-webkit-autofill, .form-group-select select:-webkit-autofill:focus {
+  -webkit-transition: background-color 600000s 0s, color 600000s 0s;
+  transition: background-color 600000s 0s, color 600000s 0s;
+  background: var(--background);
+}
+.form-group-select select:internal-autofill-selected {
+  background: var(--background);
+}
+.form-group-select select[data-autocompleted] {
+  background-color: transparent !important;
+}
+.form-group-select select option {
+  font-size: 14px;
+}
+.form-group-select svg.pui-icon {
+  position: absolute;
+  bottom: 14px;
+  right: 15px;
+  stroke: var(--secondary);
+  width: 12px;
+  height: 12px;
+}
+select {
+  display: block;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--on-surface);
+  line-height: 1.3;
+  padding: 6px 23px 6px 23px;
+  width: auto;
+  margin: 0;
+  border: 1px solid var(--primary);
+  box-shadow: none;
+  border-radius: 0.3em;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: var(--surface);
+  transition: all 0.15s ease-in-out;
+  border-radius: var(--border-primary);
+  height: 40px;
+  /* line-height: 1.5rem; */
+}
+select:hover:not(select:disabled), select:focus:not(select:disabled) {
+  border-color: var(--primary-container);
+  color: var(--on-surface);
+}
+select:focus {
+  border-color: var(--on-primary-container);
+  color: var(--on-surface);
+  outline: none;
+}
+select option {
+  font-weight: normal;
+}
+select:disabled {
+  opacity: 0.4 !important;
+  cursor: not-allowed;
+}
+@media screen and (max-width: 360px) {
+  select {
+    font-size: 12px;
+  }
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvZGVcXHNhc3NcXGlucHV0LnNjc3MiLCJjb2RlXFxzYXNzXFxzZWxlY3Quc2NzcyIsImNvZGVcXHNhc3NcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0k7RUFDQTtFQUNBOztBQUVBO0FBQUE7QUFBQTtBQUFBO0FBQUE7RUFLSTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtFQUVJO0VBQ0E7RUFDQTs7QUFFQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtFQUNJOztBQUlSO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0VBRUk7O0FBR0o7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7RUFFSTs7QUFHSjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7RUFHSTs7QUFHSjtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0VBSUk7O0FBVUo7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0VBRUk7RUFDQTtFQUNBOztBQUdKO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtFQUNJOztBQUlSO0FBQUE7QUFBQTtFQUdJOztBQUVBO0FBQUE7QUFBQTtFQUNJOztBQUlSO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0k7O0FDdkZaO0VBQ0M7O0FBQ0E7RUFDQztFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7OztBQUdGO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFDQTtFQUNDO0VBQ0E7RUFDQTtFQUNBOztBQUdEO0VBQ0M7RUFDQTtFQUNBOztBQUVEO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUNBO0VBRUMsb0JBQ0M7RUFFRCxZQUNDO0VBRUQ7O0FBRUQ7RUFDQzs7QUFFRDtFQUNDOztBQUVEO0VBQ0M7O0FBR0Y7RUFDQztFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FDdEVGO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0FBQ0E7O0FBQ0E7RUFFRTtFQUNBOztBQUVGO0VBQ0U7RUFDQTtFQUNBOztBQUVGO0VBQ0U7O0FBRUY7RUFDRTtFQUNBOztBQUdGO0VBdENGO0lBdUNJIiwiZmlsZSI6IiJ9 */

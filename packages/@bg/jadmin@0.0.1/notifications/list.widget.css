@@ -1,0 +1,25 @@
+.table__row td.icon-container .icon {
+  fill: var(--on-surface);
+}
+.search__card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1rem;
+}
+.search__card button.create-user__button {
+  text-transform: none;
+  font-size: 0.9rem;
+  display: flex;
+  flex-direction: row-reverse;
+}
+.search__card button.create-user__button .pui-icon {
+  width: 15px;
+}
+
+.container-table {
+  margin: 24px 0 0;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndpZGdldFxcc2Fzc1xccm93LnNjc3MiLCJ3aWRnZXRcXHNhc3NcXHNlYXJjaGJhci5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUdHO0VBQ0M7O0FDSko7RUFDQztFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNDO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0M7OztBQUlIO0VBQ0MiLCJmaWxlIjoiIn0= */

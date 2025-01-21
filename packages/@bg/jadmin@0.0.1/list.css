@@ -1,0 +1,87 @@
+.container-list .list__header {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 0rem;
+}
+.container-list .list__header .title {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 1rem;
+  align-items: center;
+  border-bottom: 1px solid var(--border-info);
+}
+.container-list .list__header .title .content-icon {
+  width: 52px;
+  height: 52px;
+  background-color: var(--on-background-variant);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-list .list__header .title .content-icon svg.pui-icon {
+  fill: var(--primary);
+  width: 30px;
+  height: 30px;
+}
+.container-list .list__header .list__h {
+  color: var(--on-surface);
+  font-weight: bold;
+  letter-spacing: 0;
+  position: relative;
+  line-height: 1;
+  margin: 0;
+}
+.container-list {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: var(--surface);
+  border-radius: 17px;
+  box-shadow: var(--box-shadow);
+  width: 100%;
+  padding: 2rem;
+  flex-direction: column;
+  overflow: auto;
+}
+.container-list .list__table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.container-list .list__head {
+  font-weight: bold;
+  display: table-row;
+}
+.container-list .list__head th {
+  display: table-cell;
+  padding: 10px 0;
+  text-align: left;
+  border-bottom: 1px solid var(--info-border);
+}
+.container-list .list__item {
+  display: table-row;
+  border-bottom: 1px solid var(--info-border);
+}
+.container-list .list__item:nth-child(even) {
+  background-color: var(--primary);
+}
+.container-list .list__item td {
+  display: table-cell;
+  padding: 1.5rem 0;
+  text-align: left;
+  border-bottom: 1px solid var(--info-border);
+}
+.container-list .list__item td:last-child {
+  border-bottom: none;
+}
+.container-list .list__h2 {
+  border: 1px solid;
+  color: var(--text-color);
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvZGVcXHNjc3NcXGhlYWQuc2NzcyIsImNvZGVcXHNjc3NcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUNJO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDSTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUk7RUFDSTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFFSjtFQUNJO0VBQ0E7RUFDQTs7QUFNWjtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUN2Q1g7RUFDRztFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUM7RUFDSTtFQUNBOztBQUdKO0VBQ0k7RUFDQTs7QUFFQTtFQUNJO0VBQ0E7RUFDQTtFQUNBOztBQUlSO0VBQ0k7RUFDQTs7QUFFRDtFQUNJOztBQUVIO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDSTs7QUFLWjtFQUNJO0VBQ0EsT0FwRFEiLCJmaWxlIjoiIn0= */

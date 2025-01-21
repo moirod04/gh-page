@@ -1,0 +1,16 @@
+.container-dashboard {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  position: relative;
+}
+.container-dashboard > .pui-empty-section {
+  margin-top: 1rem;
+  background-color: var(--surface);
+  box-shadow: var(--box-shadow);
+  border-radius: var(--border-radius-base);
+  padding: 1rem 0rem;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3NcXHN0eWxlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDQztFQUNBO0VBQ0E7RUFDQTs7QUFDQTtFQUNDO0VBQ0E7RUFDQTtFQUNBO0VBQ0EiLCJmaWxlIjoiIn0= */

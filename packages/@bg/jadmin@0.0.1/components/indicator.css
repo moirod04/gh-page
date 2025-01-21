@@ -1,0 +1,72 @@
+.card-indicator {
+  min-width: 260px;
+  padding: 25px;
+  background-color: var(--surface);
+  border-radius: var(--border-primary);
+  transition: all 300ms;
+  height: -webkit-max-content;
+  height: -moz-max-content;
+  height: max-content;
+  text-decoration: none;
+  display: block;
+  box-shadow: var(--box-shadow);
+  height: 100%;
+}
+.card-indicator.is-redirectionable {
+  cursor: pointer;
+}
+.card-indicator.is-redirectionable:hover {
+  background: var(--primary-container);
+  transform: scale(1.02);
+  color: var(--on-primary-container);
+}
+.card-indicator.is-redirectionable:hover svg {
+  transform: scale(1.2) rotate(-10deg);
+}
+.card-indicator.is-redirectionable:active {
+  transform: scale(1);
+}
+.card-indicator .wrapper {
+  gap: 0.5rem;
+}
+.card-indicator .wrapper .total-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.card-indicator .wrapper .total-section h6 {
+  margin: 0;
+  color: var(--on-surface);
+  font-size: 1rem;
+}
+.card-indicator .wrapper .total-section span {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--tertiary);
+}
+.card-indicator .wrapper .info-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 8px;
+}
+.card-indicator .wrapper .info-section .percent {
+  color: var(--tertiary);
+  font-size: 14px;
+}
+.card-indicator .wrapper .info-section .last-days {
+  font-size: 13px;
+}
+.card-indicator .wrapper .icon-wrapper {
+  position: relative;
+  max-width: 40px;
+  height: 100%;
+}
+.card-indicator .wrapper .icon-wrapper svg {
+  width: 100%;
+  height: 100%;
+  fill: var(--secondary);
+  transition: all 0.2s ease-in-out;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3NcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0M7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUVBO0VBQ0M7O0FBQ0E7RUFDQztFQUNBO0VBQ0E7O0FBRUE7RUFDQzs7QUFJRjtFQUNDOztBQUlGO0VBQ0M7O0FBRUE7RUFDQztFQUNBO0VBQ0E7O0FBQ0E7RUFDQztFQUNBO0VBQ0E7O0FBRUQ7RUFDQztFQUNBO0VBRUE7O0FBR0Y7RUFDQztFQUNBO0VBQ0E7O0FBQ0E7RUFDQztFQUNBOztBQUVEO0VBQ0M7O0FBR0Y7RUFDQztFQUNBO0VBQ0E7O0FBRUE7RUFDQztFQUNBO0VBQ0E7RUFDQSIsImZpbGUiOiIifQ== */

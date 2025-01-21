@@ -1,0 +1,18 @@
+.card {
+  height: 200px;
+  max-height: 150px;
+  min-height: 150px;
+  max-width: 460px;
+  background-color: var(--surface);
+  border-radius: var(--border-radius-base);
+  box-shadow: var(--box-shadow);
+  padding: 25px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: column wrap;
+  flex-direction: column;
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvZGVcXHNjc3NcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFDO0VBQ0c7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0EiLCJmaWxlIjoiIn0= */

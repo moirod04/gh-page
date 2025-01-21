@@ -1,0 +1,34 @@
+.reactive-form-container {
+  display: grid;
+  grid-gap: 1rem;
+}
+.reactive-form-container .rf-fields-container {
+  display: grid;
+  grid-gap: 0.5rem;
+}
+.reactive-form-container .rf-fields-container.fr-1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+.reactive-form-container .rf-fields-container.fr-2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+.reactive-form-container .rf-fields-container.fr-3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+.reactive-form-container .rf-fields-container.fr-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+.reactive-form-container .rf-fields-container.fr-5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+.reactive-form-container .rf-fields-container.fr-6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+@media (max-width: 768px) {
+  .reactive-form-container .rf-fields-container {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3NcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0M7RUFDQTs7QUFFQTtFQUNDO0VBQ0E7O0FBSUM7RUFDQzs7QUFERDtFQUNDOztBQUREO0VBQ0M7O0FBREQ7RUFDQzs7QUFERDtFQUNDOztBQUREO0VBQ0M7O0FBS0Y7RUFaRDtJQWNFIiwiZmlsZSI6IiJ9 */

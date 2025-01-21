@@ -1,0 +1,29 @@
+.loading-page {
+  height: 100%;
+  display: flex;
+  position: absolute;
+  inset: 0;
+  margin: auto;
+}
+.loading-page .pragmate-element-spinner.spinner--xs, .loading-page .pragmate-element-spinner.spinner--xs svg {
+  width: 150px;
+  height: 150px;
+  margin: auto;
+}
+.loading-page.loading-proses {
+  background: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  width: 100%;
+  cursor: not-allowed;
+}
+.loading-page.loading-content {
+  margin: 87px auto auto;
+}
+@media screen and (max-width: 1650px) {
+  .loading-page.loading-content {
+    margin: 60px auto auto;
+  }
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvZGVcXHNjc3NcXHN0eWxlcy5zY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0U7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7QUFDQTtFQUNFO0VBQ0E7RUFDQTs7QUFFRjtFQUNFO0VBQ0E7RUFDQTtFQUNBOztBQUVGO0VBQ0U7O0FBQ0E7RUFGRjtJQUdJIiwiZmlsZSI6IiJ9 */

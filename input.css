@@ -1,0 +1,130 @@
+.jadmin-input {
+  display: flex;
+  flex-direction: column;
+  row-gap: 11.06px;
+}
+.jadmin-input .pui-element-input,
+.jadmin-input .pui-element-textarea {
+  margin: 0;
+  border-radius: var(--border-primary);
+  border: 1px solid var(--outline);
+  background-color: var(--background);
+}
+.jadmin-input .pui-element-input input,
+.jadmin-input .pui-element-textarea input {
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: var(--on-background);
+}
+.jadmin-input .pui-element-input input:focus,
+.jadmin-input .pui-element-textarea input:focus {
+  color: var(--on-background);
+}
+.jadmin-input .pui-element-input:hover:not(.jadmin-input .pui-element-input.disabled,
+.jadmin-input .pui-element-textarea.disabled), .jadmin-input .pui-element-input:focus-within:not(.jadmin-input .pui-element-input.disabled,
+.jadmin-input .pui-element-textarea.disabled),
+.jadmin-input .pui-element-textarea:hover:not(.jadmin-input .pui-element-input.disabled,
+.jadmin-input .pui-element-textarea.disabled),
+.jadmin-input .pui-element-textarea:focus-within:not(.jadmin-input .pui-element-input.disabled,
+.jadmin-input .pui-element-textarea.disabled) {
+  border-color: var(--background);
+}
+.jadmin-input .pui-element-input:hover:not(.jadmin-input .pui-element-input.disabled,
+.jadmin-input .pui-element-textarea.disabled) input, .jadmin-input .pui-element-input:hover:not(.jadmin-input .pui-element-input.disabled,
+.jadmin-input .pui-element-textarea.disabled) textarea,
+.jadmin-input .pui-element-textarea:hover:not(.jadmin-input .pui-element-input.disabled,
+.jadmin-input .pui-element-textarea.disabled) input,
+.jadmin-input .pui-element-textarea:hover:not(.jadmin-input .pui-element-input.disabled,
+.jadmin-input .pui-element-textarea.disabled) textarea {
+  color: var(--on-background);
+}
+.jadmin-input .pui-element-input button.pui-icon-button svg.pui-icon,
+.jadmin-input .pui-element-textarea button.pui-icon-button svg.pui-icon {
+  fill: var(--on-background);
+}
+.jadmin-input .pui-element-input input[type=password]::-ms-reveal,
+.jadmin-input .pui-element-input input[type=password]::-ms-clear,
+.jadmin-input .pui-element-input input[type=password]::-webkit-contacts-auto-fill-button,
+.jadmin-input .pui-element-input input[type=password]::-webkit-credentials-auto-fill-button,
+.jadmin-input .pui-element-textarea input[type=password]::-ms-reveal,
+.jadmin-input .pui-element-textarea input[type=password]::-ms-clear,
+.jadmin-input .pui-element-textarea input[type=password]::-webkit-contacts-auto-fill-button,
+.jadmin-input .pui-element-textarea input[type=password]::-webkit-credentials-auto-fill-button {
+  display: none !important;
+}
+.jadmin-input .pragmate-element-input .pui-element-input-error,
+.jadmin-input .pragmate-element-textarea .pui-element-input-error,
+.jadmin-input .pui-element-input .pui-element-input-error {
+  bottom: -1.25rem;
+  color: var(--on-error);
+  font-size: 12px;
+}
+.jadmin-input .pragmate-element-input.error,
+.jadmin-input .pragmate-element-textarea.error,
+.jadmin-input .pui-element-input.error {
+  border-color: var(--on-error);
+}
+.jadmin-input .pui-element-textarea {
+  min-height: 135px;
+}
+.jadmin-input .pui-element-textarea textarea {
+  min-height: inherit;
+}
+.jadmin-input .label-jadmin {
+  font-size: 16px;
+  letter-spacing: 0px;
+  color: var(--on-background);
+  font-weight: 300;
+  line-height: 1;
+  text-transform: lowercase;
+}
+.jadmin-input .label-jadmin::first-letter {
+  text-transform: uppercase;
+}
+.form-group-select {
+  position: relative;
+}
+.form-group-select svg.pui-icon {
+  position: absolute;
+  bottom: 12px;
+  right: 15px;
+  stroke: var(--on-surface);
+  width: 12px;
+  height: 12px;
+}
+
+/*  .pragmate-element-textarea .pragmate-input__required-label {
+    position: absolute;
+    bottom: 0px;
+    top: -169px;
+    left: 80px;
+    text-transform: capitalize;
+ } */
+.pragmate-element-textarea {
+  background-color: var(--background);
+  margin: 0;
+  border-radius: var(--border-primary);
+  border: 1px solid var(--outline);
+}
+
+.pragmate-element-textarea > .pragmate-input__required-label {
+  position: absolute;
+  bottom: 0px;
+  top: -169px;
+  left: 80px;
+}
+
+.label {
+  display: flex;
+  gap: 0.5rem;
+  text-transform: lowercase;
+}
+.label::first-letter {
+  text-transform: uppercase;
+}
+.label .input__required-label {
+  color: var(--on-error);
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNjc3NcXGphZG1pbi1pbnB1dC5zY3NzIiwic2Nzc1xcc2VsZWN0LnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSTtFQUNBO0VBQ0E7O0FBQ0E7QUFBQTtFQUVJO0VBQ0E7RUFDQTtFQUNBOztBQUNBO0FBQUE7RUFDSTtFQUNBO0VBQ0E7O0FBQ0E7QUFBQTtFQUNJOztBQUdSO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0VBRUk7O0FBRUo7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7RUFFSTs7QUFFSjtBQUFBO0VBQ0k7O0FBRUo7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFBQTtFQUlJOztBQU1KO0FBQUE7QUFBQTtFQUNJO0VBQ0E7RUFDQTs7QUFFSjtBQUFBO0FBQUE7RUFDSTs7QUFHUjtFQUNJOztBQUNBO0VBQ0k7O0FBR1I7RUFDSTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBRUE7RUFDSTs7QUMvRFo7RUFDSTs7QUFDQTtFQUNJO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTs7O0FBSVI7QUFBQTtBQUFBO0FBQUE7QUFBQTtBQUFBO0FBQUE7QUFRQTtFQUNJO0VBQ0E7RUFDQTtFQUNBOzs7QUFFSjtFQUNJO0VBQ0E7RUFDQTtFQUNBOzs7QUFFSjtFQUNJO0VBQ0E7RUFDQTs7QUFDQTtFQUNJOztBQUVKO0VBQ0kiLCJmaWxlIjoiIn0= */

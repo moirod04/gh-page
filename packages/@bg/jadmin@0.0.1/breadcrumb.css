@@ -1,0 +1,54 @@
+.jadmin-page-header {
+  background: transparent;
+  align-items: center;
+  display: flex;
+  padding: 0;
+}
+.jadmin-page-header h2 {
+  color: var(--primary);
+}
+.jadmin-page-header .breadcrumb {
+  display: flex;
+}
+.jadmin-page-header .breadcrumb li {
+  display: inline-block;
+}
+.jadmin-page-header .breadcrumb .breadcrumbs__item--checked {
+  color: var(--secondary);
+  font-size: 14px;
+}
+.jadmin-page-header .breadcrumb a {
+  color: var(--primary);
+  text-decoration: none;
+  position: relative;
+  border: var(--text-color);
+  padding: 2px 20px;
+  height: 100%;
+  font-size: 14px;
+  border-radius: 2px;
+  border-left: none;
+  margin: 0 1px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+.jadmin-page-header .breadcrumb a:before {
+  content: "/";
+  position: absolute;
+  height: 100%;
+  left: 0px;
+  top: -2;
+}
+.jadmin-page-header .breadcrumb a:after {
+  content: "";
+  position: absolute;
+  height: 55%;
+  top: 7px;
+  right: -3px;
+  width: 8px;
+}
+.jadmin-page-header .breadcrumb a:hover, .jadmin-page-header .breadcrumb a:hover:after, .jadmin-page-header .breadcrumb a:hover:before {
+  color: var(--on-background);
+}
+
+
+/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImNvZGVcXHNjc3NcXHN0eWxlLnNjc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDSTtFQUNBO0VBQ0E7RUFDQTs7QUFFQTtFQUNJOztBQUVKO0VBQ0k7O0FBQ0E7RUFDSTs7QUFHSjtFQUNJO0VBQ0E7O0FBR0o7RUFDSTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBO0VBQ0E7O0FBQ0E7RUFDSTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUdKO0VBQ0k7RUFDQTtFQUNBO0VBQ0E7RUFDQTtFQUNBOztBQUdKO0VBR0kiLCJmaWxlIjoiIn0= */
