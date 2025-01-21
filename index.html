@@ -36,7 +36,7 @@
     <script src="/packages/@beyond-js/kernel@0.1.9/vendor/s.js"></script>
     <script type="module">
     const {specifier, vspecifier} = globalThis.__app_package;
-    const baseDir = '/';
+    //const baseDir = '/';
     System.constructor.prototype.resolve = (id, parent) => {
         let [resource, qs] = id.split('?');
         qs = qs ? `?${qs}` : '';
